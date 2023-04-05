@@ -17,7 +17,7 @@ export default function Layout({children}) {
                 <div className={styles.headerWrapper}>
                     <div className={styles.logo}>
                         <Link href="/">
-                            {name}
+                            <Image src="/happyvalley_textonly.png" width={300} height={100}></Image>
                         </Link>
                     </div>
                     <nav>

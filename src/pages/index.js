@@ -92,7 +92,9 @@ export default function Home() {
           </div>
       </div>
 
-      
+      <div className={`${styles.middle} ${styles.bottom}`}>
+        <p>At Happy Valley Lamphun, we believe in the principle of<br /> GROWING NATURALLY AND ORGANICALLY — for ourselves,<br /> our communities, and our whole world. </p>
+      </div>
     </Layout>
   )
 }

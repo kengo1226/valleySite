@@ -310,3 +310,14 @@
     width: 100%;
     object-fit: fill;
 }
+
+.middle.bottom {
+    background-image: url(../../public/bottom_bg.jpg);
+}
+
+.bottom p {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    font-family: 'Poppins', sans-serif;
+}
