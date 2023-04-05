@@ -145,6 +145,7 @@
     width: 600px;
     height: 500px;
     object-fit: cover;
+    border-radius: 2px;
 }
 
 .vision button {
@@ -238,6 +239,7 @@
     width: 600px;
     height: 500px;
     object-fit: cover;
+    border-radius: 2px;
 }
 
 .tour button {
@@ -252,4 +254,59 @@
     border-radius: 2px;
     letter-spacing: 0.1em;
     font-family: 'Poppins', sans-serif;
+}
+
+/* features */
+.features {
+    background: rgb(36, 36, 36);
+    color: #fff;
+    padding: 130px 0;
+}
+
+.features .container {
+    margin: 0 auto;
+    width: 1200px;
+    max-width: 1200px;
+}
+
+.features p.green {
+    color: #7FD473;
+    letter-spacing: 0.3em;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.features h3 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-align: center;
+}
+
+.features .featureWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+
+.features .card {
+    width: calc(100% / 3 - 65px);
+}
+
+.features .card p:first-of-type {
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.features .movie {
+    width: 100%;
+    margin-top: 85px;
+}
+
+.features .movie video {
+    width: 100%;
+    object-fit: fill;
 }

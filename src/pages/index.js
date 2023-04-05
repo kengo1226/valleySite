@@ -68,9 +68,31 @@ export default function Home() {
         </div>
       </div>
 
-      <div>
-        
+      <div className={styles.features}>
+        <div className={styles.container}>
+            <p className={styles.green}>HIGH QUALITY</p>
+            <h3>Come Explore & Tour Our Farm</h3>
+            <div className={styles.featureWrapper}>
+              <div className={styles.card}>
+                <p>Partnerships</p>
+                <p>We are firm believers in spreading our products the right way. Working with those that share our vision for offering organic, sustainable, and local cannabis is critical. This is why we will continue to develop partnerships with those who share our philosophy offering products that are good for people but for the world. Happy Valley Lamphun’s goal is to spread the word with our flowers to make our world a better place.</p>
+              </div>
+              <div className={styles.card}>
+                <p>Purely Amazing Flower</p>
+                <p>We are firm believers in spreading our products the right way. Working with those that share our vision for offering organic, sustainable, and local cannabis is critical. This is why we will continue to develop partnerships with those who oal is to spread the word with our flowers to make our world a better place.</p>
+              </div>
+              <div className={styles.card}>
+                <p>Licenses and Legality</p>
+                <p>We are firm believers in spreading our products the right way. Working with those that share our vision for offering organic, cannabis is critical. This is why we will continue to develop partnerships with those who share our philosophy offering products that are good for people but for the world. Happy Valley Lamphun’s goal is to spread the word with our flowers to make our world a better place.</p>
+              </div>
+            </div>
+            <div className={styles.movie}>
+              <video controls src={"/compressedVideo.mp4"} />
+            </div>
+          </div>
       </div>
+
+      
     </Layout>
   )
 }
