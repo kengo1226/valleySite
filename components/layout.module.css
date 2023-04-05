@@ -1,0 +1,38 @@
+.header {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+.header .headerWrapper {
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.header .headerWrapper ul {
+    display: flex;
+}
+
+.header .headerWrapper ul li {
+    margin-right: 30px;
+    color: #333;
+}
+
+
+
+.logo {
+    font-weight: bold;
+    color: #333;
+    font-size: 30px;
+}
+
+.logo a,
+.header .headerWrapper ul li a {
+    color: #333;
+}
