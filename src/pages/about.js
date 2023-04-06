@@ -1,7 +1,11 @@
 import React from 'react';
+import Head from "next/head";
 import Layout from "../../components/layout"
 import styles from "@/styles/About.module.css"
-import Head from "next/head";
+import Link from "next/link";
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'] })
 
 function about() {
   return (
