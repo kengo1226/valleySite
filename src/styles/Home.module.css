@@ -438,6 +438,12 @@
         width: 100%;
     }
 
+    .visionContent h3,
+    .tourContent h3,
+    .features h3 {
+        font-size: 2rem;
+    }
+
     .vision img {
         width: 100%;
         height: 35vh;
@@ -454,6 +460,10 @@
         height: 30vh;
     } 
 
+    .middle p {
+        font-size: 1.4rem;
+    }
+
     .features {
         padding: 12% 0;
     }
@@ -465,5 +475,14 @@
     .features .card {
         width: 100%;
         margin-bottom: 15%;
+    }
+
+    .bottom p {
+        font-size: 0.8rem;
+        width: 90%;
+        /* margin: 0 auto; */
+        /* display: block; */
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
