@@ -81,7 +81,7 @@
 }
 
 .footer .footerWrapper li a {
-    color: #f3f3f3;
+    color: #d3d3d3;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 500;
@@ -98,7 +98,7 @@
     display: block;
     text-align: center;
     width: 250px;
-    height: 100px;
+    height: 70px;
     margin: 35px auto 0;
 }
 
@@ -128,8 +128,8 @@
 
     .humburgerMenu span {
         height: 2.5px;
-        /* background: #fff; */
-        background: #7FD473;
+        background: #fff;
+        /* background: #7FD473; */
         width: 100%;
         display: block;
         margin-bottom: 25%;
@@ -178,5 +178,36 @@
         /* transition: width 0.3s; */
         opacity: 1;
         visibility: visible;
+    }
+
+    .footerWrapper {
+        width: 90%;
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .humburgerMenu {
+        display: block;
+        width: 5vw;
+        z-index: 200;
+    }
+
+    .responsiveMenu.open {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 100;
+        background: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        height: 100%;
+        /* transition: width 0.3s; */
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .footerWrapper ul {
+        width: 90%;
     }
 }

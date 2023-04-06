@@ -32,13 +32,53 @@ function about() {
         <div className={styles.visionWrapper}>
           <div className={styles.visionContent}>
             <p>Premium Cannabis</p>
-            <h3>Our Vision</h3>
+            <h3>Our Cannabis</h3>
             <p>Cannabis has several healing properties and we proudly grow, hand-trim, and cure our cannabis for you to experience. <br /><br />Our Lamphun cannabis is produced with the purest quality standards in every phase of production by experienced growers.<br /><br /> We are committed to nurturing the body and soul and inspiring the mind by providing the world’s best sun-grown flowers and the highest quality cannabis products from the natural and beautiful, Lamphun Province, Thailand.</p>
             <button>
               <Link href="/licenses">Licenses&Legality</Link>
             </button>
           </div>
-          <Image src="/main_bg.jpg" width={1900} height={1080} />
+          <Image src="/cannabis_img.jpg" width={1900} height={1080} />
+        </div>
+      </div>
+
+      <div className={styles.condition}>
+      <h3>HAPPY VALLEY<br />HIGH QUALITY CANNABIS</h3>
+        <div className={styles.conditionWrapper}>
+              <div className={styles.card}>
+                <p>SUNSHINE</p>
+                <p>We the right way. Working with is why we will ch those who share our philosophy offering products that are good for people but for the world. Happy Valley Lamphun’s goal is to spread the word with our flowers to make our world a better place.</p>
+              </div>
+              <div className={styles.card}>
+                <p>AIR</p>
+                <p>We are firm believers in This is why we will continue to This is why we will continue to with our flowers to make our world a better place.</p>
+              </div>
+              <div className={styles.card}>
+                <p>WATER</p>
+                <p>We the right way.is critical. This is why ships with those who share our philosophy offering products that are good for people but for the world. Happy Valley Lamphun’s goal is to spread the word with our flowers to make our world a better place.</p>
+              </div>
+        </div>
+      </div>
+
+      <div className={`${styles.middle} ${styles.bottom}`}>
+        <p>At Happy Valley Lamphun, we believe in the principle of<br /> GROWING NATURALLY AND ORGANICALLY — for ourselves,<br /> our communities, and our whole world. </p>
+      </div>
+
+      <div className={styles.tour}>
+        <div className={styles.tourWrapper}>
+            <Image src="/middle_bg.jpg" width={1900} height={1080} />
+            <div className={styles.tourContent}>
+              <p>Take a Tour</p>
+              <h3>Come Explore & Tour Our Farm</h3>
+              <p>Come to Happy Valley Lamphun and explore our farm. Our facility is equipped to handle tours and we are all about transparency, quality product, and education. Please click here if you would like to join us and see our farm.<br /><br />
+              Come to Happy Valley Lamphun and explore our farm. Our facility is equipped to handle tours and we are all about transparency, quality product, and education. Please click here if you would like to join us and see our farm.</p>
+              <button>
+                <Link href="/tour">Tour</Link>
+              </button>
+              <button>
+                <Link href="/licenses">Licenses</Link>
+              </button>
+            </div>
         </div>
       </div>
     </Layout>

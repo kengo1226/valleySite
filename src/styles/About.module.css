@@ -3,7 +3,7 @@
 .hero {
     position: relative;
     width: 100%;
-    height: 480px;
+    height: 550px;
     background-image: url(/about_page_bg.jpg);
     background-repeat: no-repeat;
     background-size: auto;
@@ -58,7 +58,8 @@
 
 /* vision */
 .vision {
-    background: rgb(36, 36, 36);
+    /* background: rgb(36, 36, 36); */
+    background:linear-gradient(to bottom, rgba(20, 20, 20, 1), rgb(36, 36, 36)) ;
     color: #fff;
     padding: 130px 0;
 }
@@ -125,6 +126,162 @@
 }
 
 .vision button a {
+    color: #333;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* condition */
+.condition {
+    width: 100%;
+    height: 100%;
+    padding: 30px 0 150px 0;
+    background-color: rgb(36, 36, 36);
+}
+
+.condition h3 {
+    /* color: #fff; */
+    color: #d3d3d3;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.conditionWrapper {
+    margin: 0 auto;
+    width: 1200px;
+    max-width: 1200px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conditionWrapper .card {
+    width: calc(100% / 3 - 65px);
+}
+
+.conditionWrapper .card p {
+    color: #d3d3d3;
+}
+
+.conditionWrapper .card p:first-of-type {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+}
+
+/* middle */
+.middle {
+    width: 100%;
+    height: 320px;
+    background: url(/middle_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+}
+
+.middle::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.middle p {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bottom p {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* tour */
+.tour {
+    background: rgb(36, 36, 36);
+    color: #fff;
+    padding: 130px 0;
+}
+
+.tourWrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    max-width: 1200px;
+}
+
+.tourContent {
+    width: 500px;
+}
+
+.tourContent p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.tourContent p:first-of-type {
+    color: #7FD473;
+    letter-spacing: 0.3em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.tourContent p:last-of-type {
+    padding-top: 30px;
+}
+
+.tourContent h3 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+}
+
+.tour img {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.tour button {
+    border: none;
+    display: block;
+    margin-top: 35px;
+    background: #d3d3d3;
+    color: #333;
+    width: 200px;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 2px;
+    letter-spacing: 0.1em;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.tour button:hover {
+    background-color: #fff;
+}
+
+.tour button a {
     color: #333;
     width: 100%;
     height: 100%;
