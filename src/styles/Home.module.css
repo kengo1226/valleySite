@@ -70,6 +70,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .about h3 {
@@ -86,6 +87,7 @@
     margin: 0 auto;
     color: rgba(255, 255, 255, 0.7);
     line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
 }
 
 .about button {
@@ -121,6 +123,7 @@
     background: rgb(36, 36, 36);
     color: #fff;
     padding: 130px 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .visionWrapper {
@@ -138,6 +141,7 @@
 .visionContent p {
     font-size: 16px;
     font-weight: 300;
+    font-family: 'Poppins', sans-serif;
 }
 
 .visionContent p:first-of-type {
@@ -230,6 +234,7 @@
     background: rgb(36, 36, 36);
     color: #fff;
     padding: 130px 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .tourWrapper {
@@ -247,6 +252,7 @@
 .tourContent p {
     font-size: 16px;
     font-weight: 300;
+    font-family: 'Poppins', sans-serif;
 }
 
 .tourContent p:first-of-type {
@@ -305,6 +311,7 @@
     background: rgb(36, 36, 36);
     color: #fff;
     padding: 130px 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .features .container {
@@ -336,6 +343,7 @@
 
 .features .card {
     width: calc(100% / 3 - 65px);
+    font-family: 'Poppins', sans-serif;
 }
 
 .features .card p:first-of-type {
