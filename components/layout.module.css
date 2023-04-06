@@ -39,7 +39,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
+.header.headerWrapper ul li a {
+    font-family: 'Poppins', sans-serif;
+}
 
 .logo {
     font-weight: bold;
@@ -60,4 +62,121 @@
 
 .header .headerWrapper ul li a:hover {
     border-bottom: 2px solid #7FD473;
+}
+
+.humburgerMenu {
+    display: none;
+}
+
+/* footer */
+.footer {
+    background: rgb(36, 36, 36);
+    padding: 60px 0;
+}
+
+.footerWrapper {
+    width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .footerWrapper li a {
+    color: #f3f3f3;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footerWrapper ul {
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerWrapper img {
+    display: block;
+    text-align: center;
+    width: 250px;
+    height: 100px;
+    margin: 35px auto 0;
+}
+
+.responsiveMenu {
+    /* display: none; */
+    width: 0;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* 1200px */
+@media screen and (max-width: 1200px){
+    .humburgerMenu {
+        display: block;
+        width: 3vw;
+        z-index: 200;
+    }
+
+    .header .headerWrapper {
+        z-index: 110;
+    }
+
+    .headerWrapper nav {
+        display: none;
+    }
+
+    .humburgerMenu span {
+        height: 2.5px;
+        /* background: #fff; */
+        background: #7FD473;
+        width: 100%;
+        display: block;
+        margin-bottom: 25%;
+        transition: all 0.3s;
+    }
+
+    .humburgerMenu span:first-of-type {
+        transform-origin: 0% 0%;
+    }
+
+    .humburgerMenu span:last-of-type {
+        transform-origin: 0% 100%;
+    }
+
+    .humburgerMenu span.open:first-of-type {
+        /* transform: rotate(45deg); */
+        transform: rotate(43deg);
+    }
+
+    .humburgerMenu span.open:nth-of-type(2) {
+        opacity: 0;
+    }
+
+    .humburgerMenu span.open:last-of-type {
+        transform: rotate(-43deg);
+    }
+
+    .humburgerMenu span:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .responsiveMenu {
+        width: 0%;
+        transition: width 0.3s;
+    }
+
+    .responsiveMenu.open {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 100;
+        background: rgba(0, 0, 0, 0.7);
+        width: 40%;
+        height: 100%;
+        /* transition: width 0.3s; */
+        opacity: 1;
+        visibility: visible;
+    }
 }
