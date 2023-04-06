@@ -6,7 +6,7 @@
     height: 740px;
     background-image: url(/main_bg.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-position: center -250px;
 }
 
@@ -49,10 +49,16 @@
 
 .hero .heroText p {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 18px;
-    letter-spacing: 0.02em;
+    font-size: 16px;
+    letter-spacing: 0.15em;
     font-family: Arial, Helvetica, sans-serif;
     font-family: 'Poppins', sans-serif;
+}
+
+.hero .down {
+    color: #cfcfcf;
+    font-size: 22px;
+    margin-top: 30px;
 }
 
 .about {
@@ -94,10 +100,19 @@
     border-radius: 2px;
     letter-spacing: 0.1em;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.about button:hover {
+    background-color: #fff;
 }
 
 .about button a {
     color: #333;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 /* vision */
@@ -160,6 +175,19 @@
     border-radius: 2px;
     letter-spacing: 0.1em;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.vision button:hover {
+    background-color: #fff;
+}
+
+.vision button a {
+    color: #333;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 /* middle */
@@ -254,6 +282,19 @@
     border-radius: 2px;
     letter-spacing: 0.1em;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.tour button:hover {
+    background-color: #fff;
+}
+
+.tour button a {
+    color: #333;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 /* features */

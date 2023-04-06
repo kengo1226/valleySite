@@ -6,6 +6,8 @@ import Link from "next/link";
 
 // import layout
 import Layout from "../../components/layout";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +24,7 @@ export default function Home() {
         <div className={styles.heroText}>
           <h3>HAPPY VALLEY<br /><span>LAMPHUN</span></h3>
           <p>Happy Valley Lamphun’s goal is to spread the word<br /> with our flowers to make our world a better place.</p>
+          <FontAwesomeIcon icon={faChevronDown} className={styles.down} />
         </div>
       </div>
 

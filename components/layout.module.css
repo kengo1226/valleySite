@@ -21,6 +21,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    z-index: 1;
+    transform: translateX(-50%);
 }
 
 .header .headerWrapper ul {
