@@ -180,6 +180,19 @@
         visibility: visible;
     }
 
+    .responsiveMenu.open ul {
+        padding: 25% 15%;
+    }
+
+    .responsiveMenu.open li a {
+        color: #fff;
+        font-size: 1.2rem;
+    }
+
+    .responsiveMenu.open li {
+        margin-bottom: 5%;
+    }
+
     .footerWrapper {
         width: 90%;
         max-width: 90%;
