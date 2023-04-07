@@ -5,17 +5,17 @@ import {useRouter} from "next/router";
 const variants = {
     out: {
         opacity: 0,
-        y: 40,
+        // y: 40,
         transition: {
-            duration: 0.75
+            duration: 0.45
         }
     },
     in: {
         opacity: 1,
-        y: 0,
+        // y: 0,
         transition: {
-            duration: 0.75,
-            delay: 0.5
+            duration: 0.45,
+            delay: 0
         }
     }
 }
@@ -25,7 +25,7 @@ const Transition = ({children}) => {
 
     return (
         <div className="effect-1">
-            <AnimatePresence initial={false} mode="wait">
+            <AnimatePresence initial={false} exitBeforeEnter>
                 <motion.div
                     key={asPath}
                     variants={variants}
