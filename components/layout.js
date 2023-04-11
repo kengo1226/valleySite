@@ -50,6 +50,11 @@ const menuFunction = () => {
                                     Tour
                                 </Link>
                             </li>
+                            <li>
+                                <Link href="/contact">
+                                    Contact
+                                </Link>
+                            </li>
                         </ul>
                     </nav>
                     <div className={styles.humburgerMenu} onClick={() => menuFunction()}>
@@ -73,6 +78,9 @@ const menuFunction = () => {
                     </li>
                     <li>
                         <Link href="/tour">Tour</Link>
+                    </li>
+                    <li>
+                        <Link href="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>
