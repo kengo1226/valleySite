@@ -49,7 +49,7 @@ function tour() {
             <h3>Understand Cannabis</h3>
             <p>If you’ve ever wanted to experience how top-shelf cannabis is grown and processed, then Happy Valley Lamphun should be at the top of your bucket list.<br /><br /> Our farm is open to day tours and overnight stays so that you can learn more about the art of growing, refining, and curing premium indoor and outdoor cannabis.<br /><br /> We would look forward to showing you the process of how we make some of the purest and most premium cannabis in the world.</p>
             <button>
-              <Link href="/licenses">Get in Touch</Link>
+              <Link href="/contact">Get in Touch</Link>
             </button>
           </div>
           <Image src="/tour_img.jpg" width={1900} height={1080} />
@@ -65,7 +65,7 @@ function tour() {
               <p>Come to Happy Valley Lamphun and explore our farm. Our facility is equipped to handle tours and we are all about transparency, quality product, and education. Please click here if you would like to join us and see our farm.<br /><br />
               Come to Happy Valley Lamphun and explore our farm. Our facility is equipped to handle tours and we are all about transparency, quality product, and education. Please click here if you would like to join us and see our farm.</p>
               <button>
-                <Link href="/tour">Tour</Link>
+                <Link href="/about">About Us</Link>
               </button>
             </div>
         </div>
