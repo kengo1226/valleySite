@@ -76,7 +76,7 @@ const menuFunction = () => {
                     </li>
                 </ul>
             </div>
-            <main>{children}</main>
+            <main className={styles.main}>{children}</main>
             <footer className={styles.footer}>
                 <div className={styles.footerWrapper}>
                     <ul>
