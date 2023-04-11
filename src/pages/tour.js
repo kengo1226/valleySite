@@ -8,10 +8,16 @@ import Image from "next/image";
 import { Inter } from 'next/font/google'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import {motion} from "framer-motion"
 
 function tour() {
   return (
     <Layout>
+    <motion.div
+      initial={{opacity: 0 }}
+      animate={{opacity: 1 }}
+      exit={{opacity: 0 }}
+    >
       <Head>
         <title>Tour | Happy Valley Thailand</title>
         <meta name="description" content="Tour | Happy Valley Thailand" />
@@ -65,6 +71,7 @@ function tour() {
       <div className={`${styles.middle} ${styles.bottom}`}>
         <p>At Happy Valley Lamphun, we believe in the principle of<br /> GROWING NATURALLY AND ORGANICALLY — for ourselves,<br /> our communities, and our whole world. </p>
       </div>
+      </motion.div>
     </Layout>
   )
 }

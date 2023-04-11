@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Link from "next/link";
+import {motion} from "framer-motion";
 
 // import layout
 import Layout from "../../components/layout";
@@ -14,6 +15,11 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <Layout home>
+    <motion.div
+      initial={{opacity: 0 }}
+      animate={{opacity: 1 }}
+      exit={{opacity: 0 }}
+    >
       <Head>
         <title>Home | Happy Valley Thailand</title>
         <meta name="description" content="Home | Happy Valley Thailand" />
@@ -98,6 +104,7 @@ export default function Home() {
       <div className={`${styles.middle} ${styles.bottom}`}>
         <p>At Happy Valley Lamphun, we believe in the principle of<br /> GROWING NATURALLY AND ORGANICALLY — for ourselves,<br /> our communities, and our whole world. </p>
       </div>
+      </motion.div>
     </Layout>
   )
 }
