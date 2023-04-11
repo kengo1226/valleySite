@@ -31,27 +31,27 @@ const menuFunction = () => {
                     <nav>
                         <ul>
                             <li>
-                                <Link href="/">
+                                <Link href="/" scroll={false}>
                                     Home
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/about">
+                                <Link href="/about" scroll={false}>
                                     About
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/licenses">
+                                <Link href="/licenses" scroll={false}>
                                     Licenses
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/tour">
+                                <Link href="/tour" scroll={false}>
                                     Tour
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/contact">
+                                <Link href="/contact" scroll={false}>
                                     Contact
                                 </Link>
                             </li>
@@ -68,19 +68,19 @@ const menuFunction = () => {
             <div className={`${styles.responsiveMenu} ${openMenu ? styles.open : undefined}`}>
                 <ul>
                     <li>
-                        <Link href="/">Home</Link>
+                        <Link href="/" scroll={false}>Home</Link>
                     </li>
                     <li>
-                        <Link href="/about">About</Link>
+                        <Link href="/about" scroll={false}>About</Link>
                     </li>
                     <li>
-                        <Link href="/licenses">Licenses</Link>
+                        <Link href="/licenses" scroll={false}>Licenses</Link>
                     </li>
                     <li>
-                        <Link href="/tour">Tour</Link>
+                        <Link href="/tour" scroll={false}>Tour</Link>
                     </li>
                     <li>
-                        <Link href="/contact">Contact</Link>
+                        <Link href="/contact" scroll={false}>Contact</Link>
                     </li>
                 </ul>
             </div>
@@ -89,16 +89,16 @@ const menuFunction = () => {
                 <div className={styles.footerWrapper}>
                     <ul>
                         <li>
-                            <Link href="/">HOME</Link>
+                            <Link href="/" scroll={false}>HOME</Link>
                         </li>
                         <li>
-                            <Link href="/about">ABOUT</Link>
+                            <Link href="/about" scroll={false}>ABOUT</Link>
                         </li>
                         <li>
-                            <Link href="/licenses">LICENSES</Link>
+                            <Link href="/licenses" scroll={false}>LICENSES</Link>
                         </li>
                         <li>
-                            <Link href="/tour">TOUR</Link>
+                            <Link href="/tour" scroll={false}>TOUR</Link>
                         </li>
                     </ul>
                     <div>

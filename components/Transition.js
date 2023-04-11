@@ -25,7 +25,7 @@ const Transition = ({children}) => {
 
     return (
         <div className="effect-1">
-            <AnimatePresence initial={false} mode='wait'>
+            <AnimatePresence initial={false} mode='wait' onExitComplete={() => window.scrollTo(0, 0)}>
                 <motion.div
                     key={asPath}
                     variants={variants}
