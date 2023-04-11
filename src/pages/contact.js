@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from "next/head";
 import Layout from "../../components/layout"
-import styles from "@/styles/About.module.css"
+import styles from "@/styles/Contact.module.css"
 import { Inter } from 'next/font/google'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
@@ -25,7 +25,7 @@ function contact() {
             </div>
         </div>
 
-        <div>
+        <div className={styles.contactForm}>
             <h2>Contact Us</h2>
             <form action="https://happy.form.newt.so/v1/kfvIM9hdp" method='post'>
                 <label htmlFor="name">Name</label>
