@@ -24,7 +24,7 @@ const menuFunction = () => {
         initial={{opacity: 0 }}
         animate={{opacity: 1 }}
         exit={{opacity: 0 }}
-      >
+        >
             <Head>
                 <title>{siteTitle}</title>
                 <meta name="description" content={siteTitle} />
