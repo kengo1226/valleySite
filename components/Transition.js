@@ -12,7 +12,7 @@ const variants = {
 }
 
 const Transition = ({children}) => {
-    const {asPath} = useRouter();
+    // const {asPath} = useRouter();
 
     return (
         <div className="effect-1">
