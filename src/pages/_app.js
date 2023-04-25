@@ -1,4 +1,5 @@
 import '@/styles/globals.css';
+import '@/styles/Home.module.css';
 // import '@/styles/transition.css';
 // import Transition from '../../components/Transition';
 import { AnimatePresence } from "framer-motion";
