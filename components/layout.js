@@ -20,11 +20,6 @@ const menuFunction = () => {
 
     return(
         <>
-        {/* <motion.div 
-        initial={{opacity: 0 }}
-        animate={{opacity: 1 }}
-        exit={{opacity: 0 }}
-        > */}
             <Head>
                 <title>{siteTitle}</title>
                 <meta name="description" content={siteTitle} />
@@ -77,19 +72,19 @@ const menuFunction = () => {
             <div className={`${styles.responsiveMenu} ${openMenu ? styles.open : undefined}`}>
                 <ul>
                     <li>
-                        <Link href="/" scroll={false}>Home</Link>
+                        <Link href="/">Home</Link>
                     </li>
                     <li>
-                        <Link href="/about" scroll={false}>About</Link>
+                        <Link href="/about">About</Link>
                     </li>
                     <li>
-                        <Link href="/licenses" scroll={false}>Licenses</Link>
+                        <Link href="/licenses">Licenses</Link>
                     </li>
                     <li>
-                        <Link href="/tour" scroll={false}>Tour</Link>
+                        <Link href="/tour">Tour</Link>
                     </li>
                     <li>
-                        <Link href="/contact" scroll={false}>Contact</Link>
+                        <Link href="/contact">Contact</Link>
                     </li>
                 </ul>
             </div>
@@ -98,16 +93,16 @@ const menuFunction = () => {
                 <div className={styles.footerWrapper}>
                     <ul>
                         <li>
-                            <Link href="/" scroll={false}>HOME</Link>
+                            <Link href="/">HOME</Link>
                         </li>
                         <li>
-                            <Link href="/about" scroll={false}>ABOUT</Link>
+                            <Link href="/about">ABOUT</Link>
                         </li>
                         <li>
-                            <Link href="/licenses" scroll={false}>LICENSES</Link>
+                            <Link href="/licenses">LICENSES</Link>
                         </li>
                         <li>
-                            <Link href="/tour" scroll={false}>TOUR</Link>
+                            <Link href="/tour">TOUR</Link>
                         </li>
                     </ul>
                     <div>
@@ -115,7 +110,6 @@ const menuFunction = () => {
                     </div>
                 </div>
             </footer>
-            {/* </motion.div> */}
         </>
     )
 }

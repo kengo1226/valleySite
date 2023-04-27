@@ -13,6 +13,8 @@ import "@fortawesome/fontawesome-svg-core/styles.css"
 import { config } from "@fortawesome/fontawesome-svg-core"
 config.autoAddCss = false
 
+import ScrollReveal from '../../components/ScrollReveal';
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -32,8 +34,11 @@ export default function Home() {
         </div>
       </div>
 
+    
       <div className={styles.about}>
+      <ScrollReveal move="left">
         <h3>A TRUE LABOR OF LOVE</h3>
+      </ScrollReveal>  
         <p>At Happy Valley Lamphun, we believe in the principle of GROWING NATURALLY AND ORGANICALLY — for ourselves, our communities, and our whole world. We aim to share our products around the world, deepen the connection between us and the natural world, nurture meaningful relationships, and enhance the human experience.</p>
         <button>
           <Link href="/about">
