@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./layout.module.css";
 import Link from "next/link";
 import React, {useState} from "react";
-import {motion} from "framer-motion"
+// import {motion} from "framer-motion"
 import "@fortawesome/fontawesome-svg-core/styles.css"
 import { config } from "@fortawesome/fontawesome-svg-core"
 config.autoAddCss = false
@@ -20,11 +20,11 @@ const menuFunction = () => {
 
     return(
         <>
-        <motion.div 
+        {/* <motion.div 
         initial={{opacity: 0 }}
         animate={{opacity: 1 }}
         exit={{opacity: 0 }}
-        >
+        > */}
             <Head>
                 <title>{siteTitle}</title>
                 <meta name="description" content={siteTitle} />
@@ -115,7 +115,7 @@ const menuFunction = () => {
                     </div>
                 </div>
             </footer>
-            </motion.div>
+            {/* </motion.div> */}
         </>
     )
 }
