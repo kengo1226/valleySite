@@ -10,7 +10,7 @@ import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css"
 import { config } from "@fortawesome/fontawesome-svg-core"
 config.autoAddCss = false
-import {motion} from "framer-motion";
+// import {motion} from "framer-motion";
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,11 +18,6 @@ const inter = Inter({ subsets: ['latin'] })
 function about() {
   return (
     <Layout>
-    <motion.div
-      initial={{opacity: 0 }}
-      animate={{opacity: 1 }}
-      exit={{opacity: 0 }}
-    >
       <Head>
         <title>About | Happy Valley Thailand</title>
         <meta name="description" content="About | Happy Valley Thailand" />
@@ -90,7 +85,6 @@ function about() {
             </div>
         </div>
       </div>
-      </motion.div>
     </Layout>
   )
 }

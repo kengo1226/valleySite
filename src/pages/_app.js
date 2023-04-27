@@ -1,11 +1,11 @@
 import '@/styles/globals.css';
 // import '@/styles/transition.css';
 // import Transition from '../../components/Transition';
-import { AnimatePresence } from "framer-motion";
+// import { AnimatePresence } from "framer-motion";
 import "@/styles/styles.css";
 // import {useState, useEffect} from "react";
 
-export default function App({ Component, pageProps, router }) {
+export default function App({ Component, pageProps }) {
 
   if (typeof window !== "undefined") {
     const removeFouc = (foucElement) => {
@@ -15,8 +15,6 @@ export default function App({ Component, pageProps, router }) {
   } 
 
   return (
-      <AnimatePresence mode="wait" onExitComplete={() => window.scrollTo(0, 0)}>
-        <Component key={router.asPath} {...pageProps} />
-      </AnimatePresence>
+        <Component {...pageProps} />
   ) 
 }
