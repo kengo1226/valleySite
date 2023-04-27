@@ -40,27 +40,27 @@ const menuFunction = () => {
                     <nav>
                         <ul>
                             <li>
-                                <Link href="/" scroll={false}>
+                                <Link href="/">
                                     Home
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/about" scroll={false}>
+                                <Link href="/about">
                                     About
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/licenses" scroll={false}>
+                                <Link href="/licenses">
                                     Licenses
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/tour" scroll={false}>
+                                <Link href="/tour">
                                     Tour
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/contact" scroll={false}>
+                                <Link href="/contact">
                                     Contact
                                 </Link>
                             </li>
