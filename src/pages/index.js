@@ -20,7 +20,7 @@ export default function Home() {
     <Layout home>
       <Head>
         <title>Home | Happy Valley Thailand</title>
-        <meta name="description" content="Home | Happy Valley Thailand" />
+        <meta name="description" content="The official website of Happy Valley Lamphun. Our plantation is a government-approved grower of medical canabis." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
