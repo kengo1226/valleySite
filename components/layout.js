@@ -3,10 +3,11 @@ import Image from "next/image";
 import styles from "./layout.module.css";
 import Link from "next/link";
 import React, {useState} from "react";
-// import {motion} from "framer-motion"
 import "@fortawesome/fontawesome-svg-core/styles.css"
 import { config } from "@fortawesome/fontawesome-svg-core"
 config.autoAddCss = false
+// framer motion
+import { motion } from "framer-motion"
 
 const name = "Happy Valley";
 export const siteTitle = "Happy Valley Thailand";
@@ -88,7 +89,9 @@ const menuFunction = () => {
                     </li>
                 </ul>
             </div>
-            <main className={styles.main}>{children}</main>
+            <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}}>
+                <main className={styles.main}>{children}</main>
+            </motion.div>
             <footer className={styles.footer}>
                 <div className={styles.footerWrapper}>
                     <ul>
