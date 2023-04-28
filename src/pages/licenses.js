@@ -69,7 +69,15 @@ function licenses() {
 
       <div className={styles.licensePaper}>
         <div className={styles.pdfBox}>
-          <iframe src="/license_1.pdf" width={500} height={500} loading='lazy'></iframe>
+          <iframe src="/license_1.pdf" width={800} height={800} loading='lazy'></iframe>
+        </div>
+
+        <div className={styles.pdfBox}>
+          <iframe src="/License_2-1.pdf" width={800} height={800} loading='lazy'></iframe>
+        </div>
+
+        <div className={styles.pdfBox}>
+          <iframe src="/license_3-1.pdf" width={800} height={800} loading='lazy'></iframe>
         </div>
       </div>
 
