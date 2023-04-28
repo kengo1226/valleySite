@@ -280,13 +280,36 @@
 .licensePaper .pdfBox {
     width: 800px;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto 0;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #999;
+}
+
+.licensePaper .pdfBox:nth-of-type(2),
+.licensePaper .pdfBox:nth-of-type(3) {
+    margin-top: 40px;
+}
+
+.licensePaper .pdfBox:nth-of-type(3) {
+    border: none;
 }
 
 .licensePaper .pdfBox iframe {
     width: 100%;
     height: 800px;
 }
+
+.licensePaper .pdfBox h4 {
+    color: #fff;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.licensePaper .pdfBox p {
+    color: #fff;
+    padding-bottom: 10px;
+}
+
 /* responsive tablet */
 @media screen and (max-width: 1200px) {
     .hero {
@@ -315,6 +338,47 @@
     .tourContent {
         width: 48%;
     }
+
+    /* PDF */
+.licensePaper {
+    width: 100%;
+    height: auto;
+    background: rgb(36, 36, 36);
+    padding-bottom: 10%;
+}
+
+.licensePaper .pdfBox {
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto 0;
+    padding-bottom: 5%;
+    border-bottom: 1px solid #999;
+}
+
+.licensePaper .pdfBox:nth-of-type(2),
+.licensePaper .pdfBox:nth-of-type(3) {
+    margin-top: 5%;
+}
+
+.licensePaper .pdfBox:nth-of-type(3) {
+    border: none;
+}
+
+.licensePaper .pdfBox iframe {
+    width: 100%;
+    height: 100vw;
+}
+
+.licensePaper .pdfBox h4 {
+    color: #fff;
+    font-size: 24px;
+    padding-bottom: 1.5%;
+}
+
+.licensePaper .pdfBox p {
+    color: #fff;
+    padding-bottom: 1.5%;
+}
 }
 
 /* responsive smartphone */
@@ -387,5 +451,17 @@
         width: 90%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    .licensePaper .pdfBox h4 {
+        color: #fff;
+        font-size: 5vw;
+        padding-bottom: 1.5%;
+    }
+    
+    .licensePaper .pdfBox p {
+        color: #fff;
+        font-size: 3.44vw;
+        padding-bottom: 1.5%;
     }
 }
