@@ -70,7 +70,7 @@ function licenses() {
       <div className={styles.licensePaper}>
         <div className={styles.pdfBox}>
           <h4>ASEAN GAP License</h4>
-          <iframe src="/license_1.pdf" width={800} height={800} loading='lazy'></iframe>
+          <iframe src="https://docs.google.com/viewerng/viewer?url=/license_1.pdf&embedded=true" width={800} height={800} loading='lazy'></iframe>
         </div>
 
         <div className={styles.pdfBox}>
