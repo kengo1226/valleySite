@@ -51,6 +51,11 @@ const menuFunction = () => {
                                 </Link>
                             </li>
                             <li>
+                                <Link href="/future">
+                                    Future Plan
+                                </Link>
+                            </li>
+                            <li>
                                 <Link href="/tour">
                                     Tour
                                 </Link>
@@ -80,6 +85,9 @@ const menuFunction = () => {
                     </li>
                     <li>
                         <Link href="/licenses">Licenses</Link>
+                    </li>
+                    <li>
+                        <Link href="/future">Future Plan</Link>
                     </li>
                     <li>
                         <Link href="/tour">Tour</Link>
