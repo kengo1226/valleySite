@@ -89,7 +89,7 @@ const menuFunction = () => {
                     </li>
                 </ul>
             </div>
-            <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}}>
+            <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} transition={{duration: 1}}>
                 <main className={styles.main}>{children}</main>
             </motion.div>
             <footer className={styles.footer}>
