@@ -67,6 +67,13 @@ function licenses() {
         </div>
       </div>
 
+      <div className={styles.licensePaper}>
+        <div className={styles.pdfBox}>
+          <iframe src="https://hvlthai.com/wp-content/plugins/pdf-poster/pdfjs/web/viewer.html?file=https://hvlthai.com/wp-content/uploads/2023/02/license_1.pdf&download=true&print=&openfile=false" width={500} height={500} loading='lazy'></iframe>
+          <iframe src="/license_1.pdf" width={500} height={500} loading='lazy'></iframe>
+        </div>
+      </div>
+
       <div className={`${styles.middle} ${styles.bottom}`}>
         <p>At Happy Valley Lamphun, we believe in the principle of<br /> GROWING NATURALLY AND ORGANICALLY — for ourselves,<br /> our communities, and our whole world. </p>
       </div>
