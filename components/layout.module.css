@@ -71,7 +71,7 @@
 /* footer */
 .footer {
     background: rgb(36, 36, 36);
-    padding: 60px 0;
+    padding: 60px 0 20px;
 }
 
 .footerWrapper {
@@ -100,6 +100,13 @@
     width: 250px;
     height: 70px;
     margin: 35px auto 0;
+}
+
+.footer p {
+    color: #d2d2d2;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 30px;
 }
 
 .responsiveMenu {

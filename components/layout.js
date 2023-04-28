@@ -111,7 +111,9 @@ const menuFunction = () => {
                     <div>
                         <Image src="/happyvalley_textonly.png" width={500} height={300}></Image>
                     </div>
+                    
                 </div>
+                <p>© 2023 Happy Valley Lamphun All Rights Reserved.</p>
             </footer>
         </>
     )
