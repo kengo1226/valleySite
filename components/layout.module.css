@@ -146,7 +146,7 @@
 
     .humburgerMenu span.open:first-of-type {
         /* transform: rotate(45deg); */
-        transform: rotate(43deg);
+        transform: rotate(45deg);
     }
 
     .humburgerMenu span.open:nth-of-type(2) {
@@ -154,7 +154,7 @@
     }
 
     .humburgerMenu span.open:last-of-type {
-        transform: rotate(-43deg);
+        transform: rotate(-45deg);
     }
 
     .humburgerMenu span:last-of-type {
@@ -166,7 +166,7 @@
         position: fixed;
         top: 0;
         right: -120%;
-        width: 100%;
+        width: 50%;
         height: 100vh;
         background: rgba(0, 0, 0, 0.7);
         transition: right 0.3s;
@@ -181,9 +181,9 @@
         position: fixed;
         top: 0;
         right: 0;
-        width: 100%;
+        width: 50%;
         height: 100vh;
-        background: rgba(0, 0, 0, 0.7);
+        background: rgba(0, 0, 0, 0.85);
         transition: all 0.3s;
         opacity: 1;
         visibility: visible;
@@ -212,9 +212,15 @@
 }
 
 @media screen and (max-width: 768px) {
+    .header .logo img {
+        width: 34vw;
+        height: 10vw;
+    }
+
     .humburgerMenu {
         display: block;
-        width: 5vw;
+        /* width: 5vw; */
+        width: 6%;
         z-index: 200;
     }
 
@@ -224,12 +230,30 @@
         top: 0;
         right: 0;
         z-index: 100;
-        background: rgba(0, 0, 0, 0.7);
+        background: rgba(0, 0, 0, 1);
         width: 100%;
         height: 100%;
         /* transition: width 0.3s; */
         opacity: 1;
         visibility: visible;
+    }
+
+    .responsiveMenu.open ul,
+    .responsiveMenu ul {
+        padding: 35% 15% 25%;
+    }
+
+    .responsiveMenu.open li a,
+    .responsiveMenu li a {
+        color: #fff;
+        font-size: 5vw;
+        text-align: center;
+        display: block;
+    }
+
+    .responsiveMenu.open li,
+    .responsiveMenu li {
+        margin-bottom: 7%;
     }
 
     .footerWrapper ul {

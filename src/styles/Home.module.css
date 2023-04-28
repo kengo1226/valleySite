@@ -407,22 +407,34 @@
 /* responsive smartphone */
 @media screen and (max-width: 768px) {
     .hero .heroText h3 {
-        font-size: 2.5rem;
+        /* font-size: 2.5rem; */
         width: 96%;
-        font-size: 3rem;
+        font-size: 7.2vw;
+        margin: 0 auto;
+    }
+
+    .hero .heroText h3 span {
+        font-size: 7.2vw;
     }
 
     .hero .heroText p {
         width: 90%;
         margin: 0 auto;
+        font-size: 3.44vw;
     }
 
     .about {
         padding: 15% 0;
     }
 
+    .about h3 {
+        font-size: 5vw;
+        padding-bottom: 5%;
+    }
+
     .about p {
         width: 90%;
+        font-size: 3.44vw;
     }
 
     .vision {
@@ -442,7 +454,13 @@
     .visionContent h3,
     .tourContent h3,
     .features h3 {
-        font-size: 2rem;
+        font-size: 8.5vw;
+    }
+
+    .visionContent p,
+    .tourContent p,
+    .features p {
+        font-size: 3.44vw;
     }
 
     .vision img {
@@ -462,7 +480,7 @@
     } 
 
     .middle p {
-        font-size: 1.4rem;
+        font-size: 5.5vw;
     }
 
     .features {
@@ -473,13 +491,18 @@
         display: block;
     }
 
+    .features .card p:first-of-type {
+        font-size: 5.5vw;
+        padding-bottom: 5%;
+    }
+
     .features .card {
         width: 100%;
         margin-bottom: 15%;
     }
 
     .bottom p {
-        font-size: 0.8rem;
+        font-size: 3vw;
         width: 90%;
         /* margin: 0 auto; */
         /* display: block; */
