@@ -76,13 +76,13 @@ function licenses() {
         <div className={styles.pdfBox}>
           <h4>Distributing License or processing controlled herbs for commercial Purposes Granted by the Ministry of Health of Thailand (Below)</h4>
           <p>The license for processing and selling cannabis is licensed by the Ministry of Health in Thailand.</p>
-          <iframe src="/License_2-1.pdf" width={800} height={800} loading='lazy'></iframe>
+          <iframe src="https://docs.google.com/viewerng/viewer?url=https://valley-site-n2sslzd3n-kengo1226.vercel.app/License_2-1.pdf&embedded=true" width={800} height={800} loading='lazy'></iframe>
         </div>
 
         <div className={styles.pdfBox}>
           <h4>Registration and license for the cultivation and planting of cannabis (Below)</h4>
           <p>A license for the cultivation of cannabis is granted by the Food and Drug Administration (FDA).</p>
-          <iframe src="/license_3-1.pdf" width={800} height={800} loading='lazy'></iframe>
+          <iframe src="https://docs.google.com/viewerng/viewer?url=https://valley-site-n2sslzd3n-kengo1226.vercel.app/license_3-1.pdf&embedded=true" width={800} height={800} loading='lazy'></iframe>
         </div>
       </div>
 
