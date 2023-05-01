@@ -77,29 +77,41 @@
 .footerWrapper {
     width: 1200px;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto 30px;
+    /* background: lightcoral; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerWrapper div {
+    width: 600px;
+    /* background: lightcyan; */
+    text-align: left;
+}
+
+.footerWrapper div p {
+    /* background: lightskyblue; */
+    width: 380px;
+    text-align: left;
 }
 
 .footer .footerWrapper li a {
     color: #d3d3d3;
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
 }
 
 .footerWrapper ul {
-    width: 450px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+    width: 270px;
+    /* background: lightgreen; */
 }
 
 .footerWrapper img {
     display: block;
-    text-align: center;
     width: 250px;
     height: 70px;
-    margin: 35px auto 0;
+    /* margin: 35px auto 0; */
 }
 
 .footer p {
@@ -109,12 +121,31 @@
     padding-top: 30px;
 }
 
+.footerWrapper li {
+    color: #d2d2d2;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 7px;
+    text-indent: -30px;
+    margin-left: 30px;
+}
+
+.footerWrapper li:first-of-type {
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+
 .responsiveMenu {
     display: none;
     /* width: 0;
     height: 0;
     opacity: 0;
     visibility: hidden; */
+}
+
+.footerWrapper li svg {
+    margin-right: 10px;
 }
 
 /* 1200px */
@@ -212,10 +243,82 @@
         margin-bottom: 5%;
     }
 
-    .footerWrapper {
-        width: 90%;
-        max-width: 90%;
-    }
+    /* footer */
+.footer {
+    background: rgb(36, 36, 36);
+    padding: 6% 0 3%;
+}
+
+.footerWrapper {
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerWrapper div {
+    width: 50%;
+    /* background: lightcyan; */
+    text-align: left;
+}
+
+.footerWrapper div p {
+    /* background: lightskyblue; */
+    width: 90%;
+    text-align: left;
+}
+
+.footer .footerWrapper li a {
+    color: #d3d3d3;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footerWrapper ul {
+    width: 24%;
+}
+
+.footerWrapper img {
+    display: block;
+    width: 50%;
+    height: 7vw;
+}
+
+.footer p {
+    color: #d2d2d2;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 30px;
+}
+
+.footerWrapper li {
+    color: #d2d2d2;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 7px;
+    text-indent: -30px;
+    margin-left: 30px;
+}
+
+.footerWrapper li:first-of-type {
+    font-weight: 700;
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+
+.responsiveMenu {
+    display: none;
+    /* width: 0;
+    height: 0;
+    opacity: 0;
+    visibility: hidden; */
+}
+
+.footerWrapper li svg {
+    margin-right: 10px;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -263,7 +366,84 @@
         margin-bottom: 7%;
     }
 
-    .footerWrapper ul {
-        width: 90%;
-    }
+        /* footer */
+.footer {
+    background: rgb(36, 36, 36);
+    padding: 6% 0 3%;
+}
+
+.footerWrapper {
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto 3%;
+    display: block;
+    justify-content: space-between;
+}
+
+.footerWrapper div {
+    width: 100%;
+    /* background: lightcyan; */
+    text-align: left;
+}
+
+.footerWrapper div p {
+    /* background: lightskyblue; */
+    width: 100%;
+    text-align: left;
+    font-size: 3.44vw;
+}
+
+.footer .footerWrapper li a {
+    color: #d3d3d3;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footerWrapper ul {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.footerWrapper img {
+    display: block;
+    width: 50vw;
+    height: 13vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer p {
+    color: #d2d2d2;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 30px;
+}
+
+.footerWrapper li {
+    color: #d2d2d2;
+    font-size: 3.44vw;
+    font-weight: 500;
+    margin-bottom: 7px;
+    text-indent: -30px;
+    margin-left: 30px;
+}
+
+.footerWrapper li:first-of-type {
+    font-weight: 700;
+    font-size: 5.2vw;
+    padding-bottom: 0%;
+}
+
+.responsiveMenu {
+    display: none;
+    /* width: 0;
+    height: 0;
+    opacity: 0;
+    visibility: hidden; */
+}
+
+.footerWrapper li svg {
+    margin-right: 10px;
+}
 }
