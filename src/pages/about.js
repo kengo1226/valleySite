@@ -50,14 +50,17 @@ function about() {
       <h3>HAPPY VALLEY<br />HIGH QUALITY CANNABIS</h3>
         <div className={styles.conditionWrapper}>
               <div className={styles.card}>
+                <p><Image src="/sunshine.svg" width={256} height={256} /></p>
                 <p>SUNSHINE</p>
                 <p>We the right way. Working with is why we will ch those who share our philosophy offering products that are good for people but for the world. Happy Valley Lamphun’s goal is to spread the word with our flowers to make our world a better place.</p>
               </div>
               <div className={styles.card}>
+                <p><Image src="/air.svg" width={256} height={256} /></p>
                 <p>AIR</p>
                 <p>We are firm believers in This is why we will continue to This is why we will continue to with our flowers to make our world a better place.</p>
               </div>
               <div className={styles.card}>
+                <p><Image src="/water.svg" width={256} height={256} /></p>
                 <p>WATER</p>
                 <p>We the right way.is critical. This is why ships with those who share our philosophy offering products that are good for people but for the world. Happy Valley Lamphun’s goal is to spread the word with our flowers to make our world a better place.</p>
               </div>

@@ -169,7 +169,17 @@
 
 .conditionWrapper .card p:first-of-type {
     text-align: center;
-    margin-bottom: 25px;
+}
+
+.conditionWrapper .card p:first-of-type img {
+    width: 50px;
+    height: auto;
+}
+
+.conditionWrapper .card p:nth-of-type(2) {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
     font-weight: 400;
     letter-spacing: 0.2em;
 }
@@ -324,6 +334,24 @@
     .conditionWrapper .card {
         width: calc(100% / 3 - 4%);
     }
+
+    .conditionWrapper .card p:first-of-type {
+        text-align: center;
+    }
+    
+    .conditionWrapper .card p:first-of-type img {
+        width: 20%;
+        height: auto;
+    }
+    
+    .conditionWrapper .card p:nth-of-type(2) {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 5px;
+        font-size: 24px;
+        font-weight: 400;
+        letter-spacing: 0.2em;
+    }
 }
 
 /* responsive smartphone */
@@ -397,6 +425,20 @@
     .conditionWrapper .card p:first-of-type {
         margin-bottom: 3%;
         font-size: 1.2rem;
+    }
+    
+    .conditionWrapper .card p:first-of-type img {
+        width: 20%;
+        height: auto;
+    }
+    
+    .conditionWrapper .card p:nth-of-type(2) {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 5px;
+        font-size: 4.6vw;
+        font-weight: 400;
+        letter-spacing: 0.2em;
     }
 
     .middle {
