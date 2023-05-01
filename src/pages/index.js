@@ -47,7 +47,7 @@ export default function Home() {
         <div className={styles.visionWrapper}>
           <div className={styles.visionContent}>
             <p>Premium Cannabis</p>
-            <h3>Our Vision</h3>
+            <h3>Our Cannabis</h3>
             <p>Cannabis has several healing properties and we proudly grow, hand-trim, and cure our cannabis for you to experience. <br /><br />Our Lamphun cannabis is produced with the purest quality standards in every phase of production by experienced growers.<br /><br /> We are committed to nurturing the body and soul and inspiring the mind by providing the world’s best sun-grown flowers and the highest quality cannabis products from the natural and beautiful, Lamphun Province, Thailand.</p>
             <button>
               <Link href="/licenses">Licenses&Legality</Link>
@@ -87,11 +87,11 @@ export default function Home() {
               </div>
               <div className={styles.card}>
                 <p>Purely Amazing Flower</p>
-                <p>We are firm believers in spreading our products the right way. Working with those that share our vision for offering organic, sustainable, and local cannabis is critical. This is why we will continue to develop partnerships with those who oal is to spread the word with our flowers to make our world a better place.</p>
+                <p>Our aim is to grow with the highest level of quality, we are proud of what we grow. That’s why our expert cultivators craft our cannabis flower by hand, in state-of-the-art greenhouses, directly under the beautiful sunlight of Thailand. We believe in 100% organic cannabis and aim to promote health, happiness, and abundance to everyone through this powerful plant. Our passion is creating a pure and safe product with no pesticides or chemicals used during cultivation.</p>
               </div>
               <div className={styles.card}>
                 <p>Licenses and Legality</p>
-                <p>We are firm believers in spreading our products the right way. Working with those that share our vision for offering organic, cannabis is critical. This is why we will continue to develop partnerships with those who share our philosophy offering products that are good for people but for the world. Happy Valley Lamphun’s goal is to spread the word with our flowers to make our world a better place.</p>
+                <p>Our experience goes beyond serving individual clients. We provide high-quality flowers to government-run hospitals and clinics all through Thailand. On top of this, we are one the very first Cannabis farms to be licensed organically. Please feel free to view all of our licenses by clicking on the Licenses link or if you have any further questions, please feel free to contact us anytime.</p>
               </div>
             </div>
             <div className={styles.movie}>

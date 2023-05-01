@@ -25,7 +25,7 @@ function tour() {
       <div className={styles.hero}>
         <div className={styles.heroText}>
           <h3>HAPPY VALLEY LAMPHUN</h3>
-          <p>Feel free to reach out to us and come join us on the farm.<br />At Happy Valley Lamphun</p>
+          <p>Make the world a better place by providing cannabis<br /> that is organic, healthy, and good for communities.</p>
           <FontAwesomeIcon icon={faChevronDown} className={styles.down} />
         </div>
       </div>
@@ -45,9 +45,9 @@ function tour() {
       <div className={styles.vision}>
         <div className={styles.visionWrapper}>
           <div className={styles.visionContent}>
-            <p>Farm Tour</p>
-            <h3>Understand Cannabis</h3>
-            <p>If you’ve ever wanted to experience how top-shelf cannabis is grown and processed, then Happy Valley Lamphun should be at the top of your bucket list.<br /><br /> Our farm is open to day tours and overnight stays so that you can learn more about the art of growing, refining, and curing premium indoor and outdoor cannabis.<br /><br /> We would look forward to showing you the process of how we make some of the purest and most premium cannabis in the world.</p>
+            <p>Future Plans</p>
+            <h3>Large Greenhouse</h3>
+            <p>Currently, our farm is situated on 9 rai (approximately 14,400 Square meters). Over the coming year, we will grow to be the largest producing greenhouse cannabis farm in all of Thailand. Our location provides significant advantages to our business when compared to traditional indoor farms. Our land is free from pesticides and other harmful substances that could otherwise harm our crop and end product.</p>
             <button>
               <Link href="/contact">Get in Touch</Link>
             </button>
@@ -58,12 +58,11 @@ function tour() {
 
       <div className={styles.tour}>
         <div className={styles.tourWrapper}>
-            <Image src="/middle_bg.jpg" width={1900} height={1080} />
+            <Image src="/future_img2.jpg" width={1900} height={1080} />
             <div className={styles.tourContent}>
-              <p>Take a Tour</p>
-              <h3>Come Explore & Tour Our Farm</h3>
-              <p>Come to Happy Valley Lamphun and explore our farm. Our facility is equipped to handle tours and we are all about transparency, quality product, and education. Please click here if you would like to join us and see our farm.<br /><br />
-              Come to Happy Valley Lamphun and explore our farm. Our facility is equipped to handle tours and we are all about transparency, quality product, and education. Please click here if you would like to join us and see our farm.</p>
+              <p>Our Goals</p>
+              <h3>Make the world a better place</h3>
+              <p>We have been able to progress quickly because of your continued support. Our current phase is farm 1 which we call the initial phase of our project. By 2024, our goal is to expand to farm 2 which is 30 rai (approximately 48,000 square meters). Our vision and goals are to spread locally Thai-grown flowers all over the world and in doing so, we hope that we can make the world a better place by providing cannabis that is organic, healthy, and good for communities.</p>
               <button>
                 <Link href="/about">About Us</Link>
               </button>
