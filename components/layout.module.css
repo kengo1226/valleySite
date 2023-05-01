@@ -70,7 +70,8 @@
 
 /* footer */
 .footer {
-    background: rgb(36, 36, 36);
+    /* background: rgb(36, 36, 36); */
+    background: #000000;
     padding: 60px 0 20px;
 }
 
