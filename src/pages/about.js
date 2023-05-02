@@ -47,7 +47,7 @@ function about() {
       </div>
 
       <div className={styles.condition}>
-      <h3>HAPPY VALLEY<br />HIGH QUALITY CANNABIS</h3>
+      <h3>NATURAL FARMING<br />HIGH QUALITY CANNABIS</h3>
         <div className={styles.conditionWrapper}>
               <div className={styles.card}>
                 <p><Image src="/sunshine.svg" width={256} height={256} /></p>

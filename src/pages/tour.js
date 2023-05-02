@@ -42,9 +42,9 @@ function tour() {
           <div className={styles.visionContent}>
             <p>Farm Tour</p>
             <h3>Understand Cannabis</h3>
-            <p>If you’ve ever wanted to experience how top-shelf cannabis is grown and processed, then Happy Valley Lamphun should be at the top of your bucket list.<br /><br /> Our farm is open to day tours and overnight stays so that you can learn more about the art of growing, refining, and curing premium indoor and outdoor cannabis.<br /><br /> We would look forward to showing you the process of how we make some of the purest and most premium cannabis in the world.</p>
+            <p>Feel free to reach out to us and come join us on the farm. At Happy Valley Lamphun, we are all about transparency. <br /><br />Our staff is on hand to welcome you and provide an informational response to any questions that you might have regarding our farm or cannabis-related topics. You will get the chance to better understand how organic cannabis has amazing benefits for your health and your life.</p>
             <button>
-              <Link href="/contact">Get in Touch</Link>
+            <Link href="/about">About Us</Link>
             </button>
           </div>
           <Image src="/tour_img.jpg" width={1900} height={1080} />
@@ -57,10 +57,9 @@ function tour() {
             <div className={styles.tourContent}>
               <p>Take a Tour</p>
               <h3>Come Explore & Tour Our Farm</h3>
-              <p>Come to Happy Valley Lamphun and explore our farm. Our facility is equipped to handle tours and we are all about transparency, quality product, and education. Please click here if you would like to join us and see our farm.<br /><br />
-              Come to Happy Valley Lamphun and explore our farm. Our facility is equipped to handle tours and we are all about transparency, quality product, and education. Please click here if you would like to join us and see our farm.</p>
+              <p>If you’ve ever wanted to experience how top-shelf cannabis is grown and processed, then Happy Valley Lamphun should be at the top of your bucket list.<br /><br /> Our farm is open to day tours and overnight stays so that you can learn more about the art of growing, refining, and curing premium indoor and outdoor cannabis. We would look forward to showing you the process of how we make some of the purest and most premium cannabis in the world.</p>
               <button>
-                <Link href="/about">About Us</Link>
+              <Link href="/contact">Get in Touch</Link>
               </button>
             </div>
         </div>

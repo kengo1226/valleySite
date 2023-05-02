@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "./layout.module.css";
 import Link from "next/link";
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import "@fortawesome/fontawesome-svg-core/styles.css"
 import { config } from "@fortawesome/fontawesome-svg-core"
 config.autoAddCss = false
@@ -20,13 +20,26 @@ const menuFunction = () => {
     setOpenMenu(!openMenu);
 }
 
+const [isVisible, setIsVisible] = useState(false);
+
+const toggleVisibility = () => {
+    window.scrollY > 500
+    ? setIsVisible(true)
+    : setIsVisible(false) 
+}
+
+useEffect(() => {
+    window.addEventListener('scroll', toggleVisibility)
+    return() => window.removeEventListener('scroll', toggleVisibility)
+}, [])
+
     return(
         <>
             <Head>
                 <title>{siteTitle}</title>
                 <meta name="description" content={siteTitle} />
             </Head>
-            <header className={styles.header}>
+            <header className={isVisible ? `${styles.header} ${styles.show}` : styles.header}>
             {/* PC */}
                 <div className={styles.headerWrapper}>
                     <div className={styles.logo}>
