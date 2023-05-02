@@ -17,7 +17,7 @@ function licenses() {
   return (
     <Layout>
       <Head>
-        <title>Licenses | Happy Valley Thailand</title>
+        <title>Licenses & Legality | Happy Valley Thailand</title>
         <meta name="description" content="Tour | Happy Valley Thailand" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
@@ -56,7 +56,7 @@ function licenses() {
         <div className={styles.tourWrapper}>
             <Image src="/asean_img.jpg" width={1900} height={1080} />
             <div className={styles.tourContent}>
-              <p>Take a Tour</p>
+              <p>ASEAN Standards</p>
               <h3>ASEAN GAP License</h3>
               <p>ASEAN GAP is a standard for good agricultural practice during the production, harvesting, and postharvest handling of fresh fruit and vegetables in the ASEAN region.<br /><br />
               The practices in ASEAN GAP are aimed at preventing or minimizing the risk of hazards occurring.<br /><br />
