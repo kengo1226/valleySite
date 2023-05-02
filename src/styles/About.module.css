@@ -298,6 +298,14 @@
     display: block;
 }
 
+.tour .tourButton {
+    display: flex;
+}
+
+.tour .tourButton button:last-of-type {
+    margin-left: 15px;
+}
+
 /* responsive tablet */
 @media screen and (max-width: 1200px) {
     .hero {
@@ -470,5 +478,14 @@
         /* display: block; */
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    .tour .tourButton {
+        display: flex;
+        /* justify-content: space-between; */
+    }
+    
+    .tour .tourButton button:last-of-type {
+        margin-left: 15px;
     }
 }

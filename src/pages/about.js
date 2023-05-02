@@ -79,12 +79,14 @@ function about() {
               <h3>Come Explore & Tour Our Farm</h3>
               <p>Come to Happy Valley Lamphun and explore our farm. Our facility is equipped to handle tours and we are all about transparency, quality product, and education. Please click here if you would like to join us and see our farm.<br /><br />
               Come to Happy Valley Lamphun and explore our farm. Our facility is equipped to handle tours and we are all about transparency, quality product, and education. Please click here if you would like to join us and see our farm.</p>
-              <button>
-                <Link href="/tour">Tour</Link>
-              </button>
-              <button>
-                <Link href="/licenses">Licenses</Link>
-              </button>
+              <div className={styles.tourButton}>
+                <button>
+                  <Link href="/tour">Tour</Link>
+                </button>
+                <button>
+                  <Link href="/licenses">Licenses</Link>
+                </button>
+              </div>
             </div>
         </div>
       </div>
