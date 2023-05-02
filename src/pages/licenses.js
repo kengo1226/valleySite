@@ -24,7 +24,8 @@ function licenses() {
 
       <div className={styles.hero}>
         <div className={styles.heroText}>
-          <h3>HAPPY VALLEY LAMPHUN</h3>
+          <h4>HAPPY VALLEY LAMPHUN</h4>
+          <h3>LICENSES & LEGALITY</h3>
           <p>We provide high-quality flowers to government-run<br /> hospitals and clinics all through Thailand.</p>
           <FontAwesomeIcon icon={faChevronDown} className={styles.down} />
         </div>
@@ -32,7 +33,7 @@ function licenses() {
 
       <div className={styles.catch}>
         <div className={styles.catchText}>
-          <h3>Licenses and Legality</h3>
+          <h3>Licensed Farms</h3>
           <p>Our experience goes beyond serving individual clients. We provide high-quality flowers to government-run hospitals and clinics all through Thailand. On top of this, we are one the very first Cannabis farms to be licensed organically. Please feel free to view all of our licenses by clicking on the Licenses & Legality icon or if you have any further questions, please feel free to contact us anytime.</p>
         </div>
       </div>

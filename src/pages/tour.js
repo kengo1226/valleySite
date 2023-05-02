@@ -24,7 +24,8 @@ function tour() {
 
       <div className={styles.hero}>
         <div className={styles.heroText}>
-          <h3>HAPPY VALLEY LAMPHUN</h3>
+          <h4>HAPPY VALLEY LAMPHUN</h4>
+          <h3>TOUR</h3>
           <p>Feel free to reach out to us and come join us on the farm.<br />At Happy Valley Lamphun</p>
           <FontAwesomeIcon icon={faChevronDown} className={styles.down} />
         </div>

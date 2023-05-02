@@ -22,7 +22,8 @@ function contact() {
 
         <div className={styles.hero}>
             <div className={styles.heroText}>
-                <h3>HAPPY VALLEY LAMPHUN</h3>
+                <h4>HAPPY VALLEY LAMPHUN</h4>
+                <h3>CONTACT US</h3>
                 <p>High quality cannabis products from the<br /> natural and beautiful, Lamphun Province, Thailand</p>
                 <FontAwesomeIcon icon={faChevronDown} className={styles.down} />
             </div>

@@ -24,7 +24,8 @@ function tour() {
 
       <div className={styles.hero}>
         <div className={styles.heroText}>
-          <h3>HAPPY VALLEY LAMPHUN</h3>
+          <h4>HAPPY VALLEY LAMPHUN</h4>
+          <h3>FUTURE PLANS</h3>
           <p>Make the world a better place by providing cannabis<br /> that is organic, healthy, and good for communities.</p>
           <FontAwesomeIcon icon={faChevronDown} className={styles.down} />
         </div>
